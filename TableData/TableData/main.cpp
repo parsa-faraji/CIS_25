@@ -6,9 +6,14 @@
 //
 
 #include <iostream>
+#include <iomanip>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    
+    std::cout << std::left << std::setw(10) << "Course" << std::setw(10) << std::right << "Student" << std::endl;
+    
+    std::cout << std::left << std::setw(10) << "C++" << std::right << std::setw(10) << "100" << std::endl;
+    
+    std::cout << std::left << std::setw(10) << "JavaScript" << std::right << std::setw(10) << "50" << std::endl;
+    
 }
