@@ -6,9 +6,20 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    int sales = 10'000;
+    double commission;
+    
+    if (sales < 10'000)
+        commission = .1;
+    else if (sales < 15'000)
+        commission = .15;
+    else
+        commission = .2;
+    
+    cout << "Commission according to sales: " << commission << endl;
+    
     return 0;
 }
