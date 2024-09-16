@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C1358B422C98A210002C378E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1358B412C98A210002C378E /* main.cpp */; };
 		C1358B4A2C98A9EE002C378E /* main2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1358B482C98A9EE002C378E /* main2.cpp */; };
+		C1358B4D2C98AEC3002C378E /* temp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1358B4B2C98AEC3002C378E /* temp.cpp */; };
+		C1358B502C98B8AE002C378E /* NumberGuesser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1358B4E2C98B8AE002C378E /* NumberGuesser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		C1358B412C98A210002C378E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C1358B482C98A9EE002C378E /* main2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main2.cpp; sourceTree = "<group>"; };
 		C1358B492C98A9EE002C378E /* main2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main2.hpp; sourceTree = "<group>"; };
+		C1358B4B2C98AEC3002C378E /* temp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = temp.cpp; sourceTree = "<group>"; };
+		C1358B4C2C98AEC3002C378E /* temp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = temp.hpp; sourceTree = "<group>"; };
+		C1358B4E2C98B8AE002C378E /* NumberGuesser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberGuesser.cpp; sourceTree = "<group>"; };
+		C1358B4F2C98B8AE002C378E /* NumberGuesser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberGuesser.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				C1358B412C98A210002C378E /* main.cpp */,
 				C1358B482C98A9EE002C378E /* main2.cpp */,
 				C1358B492C98A9EE002C378E /* main2.hpp */,
+				C1358B4B2C98AEC3002C378E /* temp.cpp */,
+				C1358B4C2C98AEC3002C378E /* temp.hpp */,
+				C1358B4E2C98B8AE002C378E /* NumberGuesser.cpp */,
+				C1358B4F2C98B8AE002C378E /* NumberGuesser.hpp */,
 			);
 			path = Sep_16;
 			sourceTree = "<group>";
@@ -125,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1358B422C98A210002C378E /* main.cpp in Sources */,
+				C1358B502C98B8AE002C378E /* NumberGuesser.cpp in Sources */,
 				C1358B4A2C98A9EE002C378E /* main2.cpp in Sources */,
+				C1358B4D2C98AEC3002C378E /* temp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

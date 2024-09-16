@@ -8,13 +8,12 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main3() {
     int num;
     int result = 1;
     
     cout << "Enter a positive number: " << endl;
     cin >> num;
-    
     
     for (int i = 1; i <= num; i++) {
         result *= i;
