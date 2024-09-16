@@ -6,9 +6,21 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main() {
+    
+    cout << "Data Type: short" << endl;
+    cout << "Size: "  << sizeof(short) << endl;
+    cout << "Limits: Min: " << numeric_limits<short>::min();
+    cout << " // Max: " << numeric_limits<short>::max() << endl;
+    
+    cout << endl;
+    
+    cout << "Data Type: double" << endl;
+    cout << "Size: "  << sizeof(double) << endl;
+    cout << "Limits: Min: " << numeric_limits<double>::min();
+    cout << " // Max: " << numeric_limits<double>::max() << endl;
+    
+    
 }
