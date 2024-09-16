@@ -6,9 +6,14 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main (){
+    int x=10;
+    int y=3;
+    // we just need to cast x or y to double
+    double z= x/static_cast<double>(y);
+    cout << z << endl;
+
     return 0;
 }
