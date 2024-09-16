@@ -30,7 +30,7 @@ int main() {
     
     // print to console
     cout << "Your address: " << street << "\n";
-    cout << city << ", " << state << ", " << zipCode;
+    cout << city << ", " << state << ", " << zipCode << "\n";
     
     
     return 0;
