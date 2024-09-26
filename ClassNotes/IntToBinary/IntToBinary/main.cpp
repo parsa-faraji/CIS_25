@@ -6,8 +6,18 @@
 //  This program prints the binary rep of a positive integer
 
 #include <iostream>
+#include <cmath>
+#include <string>
 
-int main(int argc, const char * argv[]) {
+int greatestPowerOf2(int num) {
+    int i = 0;
+    while (pow(2, i+1) <= num){
+        i++;
+    }
+    return i;
+}
+
+int main() {
     int number;
     std::cout << "Please enter a positive integer: " << std::endl;
     
@@ -32,9 +42,21 @@ int main(int argc, const char * argv[]) {
     // apply the same on 1
     // 1 <= 1
     // therefore weh have one in the first place (2 ^ 0)
-    
     // now create a string with 1 in the allocated places and zeros in between
     // using a for loop
+    int currentPower;
+    int binary = 0;
     
+    while (number > 0) {
+        currentPower = greatestPowerOf2(number);
+        number -= pow(2, currentPower);
+        binary += pow(10, currentPower);
+    }
     
+    std::cout << "The binary representation is " << binary << std::endl;
+    return 0;
 }
+                         
+
+
+
