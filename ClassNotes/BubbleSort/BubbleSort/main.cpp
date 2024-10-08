@@ -7,29 +7,40 @@
 
 #include <iostream>
 
-void sortArray(int* array, int size) {
+void sortArray(int array[], int size) {
     int high = size;
     int i = 0;
     int temp;
-    while (i < high) {
-        for (int i = 0; i < high; i++) {
-                if (array[i] > array[i+1]) {
-                    temp = array[i];
-                    array[i] = array[i + 1];
-                    array[i+1] = temp;
+    for (int i = 0; i < size; i++) {
+        std::cout << array[i] << " ";
+    }
+    std::cout << std::endl;
+    while (i < high - 1) {
+        // 1) i = 0 , high = 5
+        for (int j = 0; j < high - 1; j++) {
+            // {4, 3, 8, 2, 1}
+                if (array[j] > array[j+1]) {
+                    temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j+1] = temp;
                 }
         }
+        for (int i = 0; i < size; i++) {
+            std::cout << array[i] << " ";
+        }
+        std::cout << std::endl;
         high--;
-        
     }
 }
 
 int main() {
-    int myArray[5] = {4, 3, 8, 2, 1};
+    int myArray[5] = {4, 3, 8, 2, 1}; // 1 2 3 4 8
+    
+
     
     sortArray(myArray, 5);
     for (int num: myArray) {
-        std::cout << num << "\n";
+        std::cout << num << " ";
     }
     return 0;
 }
