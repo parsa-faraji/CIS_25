@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C15FD1CE2CB44B3600CD4E99 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C15FD1CD2CB44B3600CD4E99 /* main.cpp */; };
+		C15FD1E92CB4D3A400CD4E99 /* linearSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C15FD1E72CB4D3A400CD4E99 /* linearSearch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C15FD1CA2CB44B3600CD4E99 /* linearSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = linearSearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15FD1CD2CB44B3600CD4E99 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C15FD1E72CB4D3A400CD4E99 /* linearSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linearSearch.cpp; sourceTree = "<group>"; };
+		C15FD1E82CB4D3A400CD4E99 /* linearSearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = linearSearch.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C15FD1CD2CB44B3600CD4E99 /* main.cpp */,
+				C15FD1E72CB4D3A400CD4E99 /* linearSearch.cpp */,
+				C15FD1E82CB4D3A400CD4E99 /* linearSearch.hpp */,
 			);
 			path = linearSearch;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C15FD1E92CB4D3A400CD4E99 /* linearSearch.cpp in Sources */,
 				C15FD1CE2CB44B3600CD4E99 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

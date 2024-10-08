@@ -6,15 +6,7 @@
 //
 
 #include <iostream>
-
-int linearSearch(int* array, int size, int targetValue) {
-    for(int i = 0; i < size; i++) {
-        if (array[i] == targetValue) {
-            return i;
-        }
-    }
-    return -1;
-}
+#include "linearSearch.hpp"
 
 int main() {
     // test 1
@@ -27,6 +19,8 @@ int main() {
     int target2 = 4;
     
     
+    std::cout <<  linearSearch(test1, 5, target1) << std::endl;
+    std::cout << linearSearch(test2, 10, target2) << std::endl;
     
 }
 
