@@ -6,39 +6,20 @@
 //
 
 #include <iostream>
+#include "sortArray.hpp"
 
-void sortArray(int array[], int size) {
-    int high = size;
-    int i = 0;
-    int temp;
-    for (int i = 0; i < size; i++) {
-        std::cout << array[i] << " ";
-    }
-    std::cout << std::endl;
-    while (i < high - 1) {
-        // 1) i = 0 , high = 5
-        for (int j = 0; j < high - 1; j++) {
-            // {4, 3, 8, 2, 1}
-                if (array[j] > array[j+1]) {
-                    temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j+1] = temp;
-                }
-        }
-        for (int i = 0; i < size; i++) {
-            std::cout << array[i] << " ";
-        }
-        std::cout << std::endl;
-        high--;
-    }
-}
 
 int main() {
     int myArray[5] = {4, 3, 8, 2, 1}; // 1 2 3 4 8
+    std::cout << "Unsorted Array: ";
+    for (int num: myArray) {
+        std::cout << num << " ";
+    }
     
-
+    std::cout << "\n";
     
     sortArray(myArray, 5);
+    std::cout << "Sorted Array: ";
     for (int num: myArray) {
         std::cout << num << " ";
     }
