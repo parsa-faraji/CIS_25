@@ -11,3 +11,6 @@
 #include <stdio.h>
 
 #endif /* printSum_hpp */
+
+// function declaration
+void printSum(const std::unique_ptr<int[]>& arr, int size);

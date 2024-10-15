@@ -11,3 +11,6 @@
 #include <stdio.h>
 
 #endif /* arrayFiller_hpp */
+
+// function declaration
+void arrayFiller(std::unique_ptr<int[]>& arr, int size);
