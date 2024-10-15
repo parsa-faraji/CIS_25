@@ -7,6 +7,7 @@
 
 #include "arrayFiller.hpp"
 #include <memory>
+#include <iostream>
 
 // function to fill the array with numbers
 void arrayFiller(std::unique_ptr<int[]>& arr, int size) {

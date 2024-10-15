@@ -9,6 +9,7 @@
 #define arrayFiller_hpp
 
 #include <stdio.h>
+#include <memory>
 
 #endif /* arrayFiller_hpp */
 

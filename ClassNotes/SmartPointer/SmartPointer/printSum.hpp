@@ -9,8 +9,9 @@
 #define printSum_hpp
 
 #include <stdio.h>
-
+#include<memory>
 #endif /* printSum_hpp */
 
 // function declaration
+
 void printSum(const std::unique_ptr<int[]>& arr, int size);
