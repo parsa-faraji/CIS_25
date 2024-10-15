@@ -27,8 +27,6 @@ int main() {
     *ptr1 = *ptr2;
     *ptr2 = *ptr_temp;
 
-    
-    
     cout << "after: " << endl;
     cout << "var1: " << var1 << endl;
     cout << "var2: " << var2 << endl;
