@@ -9,26 +9,36 @@
 #include <iostream>
 using namespace std;
 
+struct Date{
+    short year;
+    short month;
+    short day;
+};
+
 struct Movie{
     string title;
-    short releaseYear;
+    Date releaseYear;
 };
 
 int main() {
-    Movie movie  = {"24", 2000};
-    cout << movie.title << endl;
+    Date date = {1984, 6, 1};
+
     
     // short releaseYear = movie.releaseYear
     // string nameOfMovie = movie.title;
-    auto [title, releaseYear]{movie}; //
     int number[5] = {1, 2, 3, 4, 5};
+    
+    Movie movie  = {"24", date};
+    Movie movie1 = {"24", {1984, 6, 1}};
     
     // vectors
     vector<Movie> movies;
     
-    // line 30 == line 31
     movies.push_back(movie);
-    movies.push_back({"24", 2000});
+    
+    for (auto movie:movies) {
+        cout << movie.releaseYear.year << endl;
+    }
     
     return 0;
 }
