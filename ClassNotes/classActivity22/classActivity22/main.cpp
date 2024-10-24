@@ -14,7 +14,7 @@ int main() {
     
     // prompt user for name and take input
     cout << "Please enter your name: " << endl;
-    cin >> fullName;
+    getline(cin, fullName);
     
     // extract first and last names
     cout << nameExtractor(fullName) << endl;
