@@ -6,7 +6,6 @@
 //
 
 #include "nameExtractor.hpp"
-#include <iostream>
 
 using namespace std;
 
@@ -26,13 +25,15 @@ string nameExtractor(string fullName){
             spaceFound = true;
             continue;
         }
-        
+        // build first name
         if (!spaceFound) {
             firstName += ch;
         }
+        // build last name
         else {
             lastName += ch;
         }
     }
+    // return result
     return "First Name: " + firstName + "  Last Name: " + lastName;
 }

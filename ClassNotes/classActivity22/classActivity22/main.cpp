@@ -6,9 +6,18 @@
 //
 
 #include <iostream>
+#include "nameExtractor.hpp"
 
 int main() {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    // declare string variable
+    string fullName;
+    
+    // prompt user for name and take input
+    cout << "Please enter your name: " << endl;
+    cin >> fullName;
+    
+    // extract first and last names
+    cout << nameExtractor(fullName) << endl;
+    
     return 0;
 }

@@ -9,5 +9,10 @@
 #define nameExtractor_hpp
 
 #include <stdio.h>
+#include <iostream>
 
+using namespace std;
+
+// function declaration
+string nameExtractor(string fullName);
 #endif /* nameExtractor_hpp */
