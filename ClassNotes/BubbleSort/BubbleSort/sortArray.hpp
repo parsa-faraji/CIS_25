@@ -10,5 +10,6 @@
 
 #include <stdio.h>
 
-#endif /* sortArray_hpp */
 void sortArray(int array[], int size);
+
+#endif /* sortArray_hpp */
