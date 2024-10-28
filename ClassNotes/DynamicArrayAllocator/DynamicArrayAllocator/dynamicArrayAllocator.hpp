@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 #include <iostream>
-
+int dynamicArrayAllocator();
 #endif /* dynamicArrayAllocator_hpp */
 
-int dynamicArrayAllocator();
+
