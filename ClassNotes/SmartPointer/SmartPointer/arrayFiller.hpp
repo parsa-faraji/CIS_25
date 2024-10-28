@@ -10,8 +10,9 @@
 
 #include <stdio.h>
 #include <memory>
+// function declaration
+void arrayFiller(std::unique_ptr<int[]>& arr, int size);
 
 #endif /* arrayFiller_hpp */
 
-// function declaration
-void arrayFiller(std::unique_ptr<int[]>& arr, int size);
+
