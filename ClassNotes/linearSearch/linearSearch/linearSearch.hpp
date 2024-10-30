@@ -9,7 +9,7 @@
 #define linearSearch_hpp
 
 #include <stdio.h>
-
+int linearSearch(int* array, int size, int targetValue);
 #endif /* linearSearch_hpp */
 
-int linearSearch(int* array, int size, int targetValue);
+
