@@ -35,6 +35,7 @@ fastlane/test_output
 
 # Xcode Patch
 #
+*.xcodeproj/
 *.xcodeproj/*/xcdebugger/
 *.xcodeproj/*/schemeManagement.plist
 
